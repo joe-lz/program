@@ -75,66 +75,87 @@ const config = {
           },
           // { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://www.proginn.com/',
+            href: 'https://www.proginn.com/?from=客栈帮助文档',
             label: '官网',
             position: 'right',
           },
           {
-            href: 'https://www.proginn.com/index/app',
+            href: 'https://www.proginn.com/index/app?from=客栈帮助文档',
             label: '下载APP',
             position: 'right',
           },
           {
-            href: 'https://support.qq.com/product/362129',
+            href: 'https://support.qq.com/product/362129?from=客栈帮助文档',
             label: '意见反馈',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: '解决方案',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '整包开发',
+                href: 'https://www.proginn.com/b/outsource?from=客栈帮助文档',
+              },
+              {
+                label: '云端开发',
+                href: 'https://www.proginn.com/b/cloud?from=客栈帮助文档',
+              },
+              {
+                label: '1980梳理需求',
+                href: 'https://www.proginn.com/b/p1980?from=客栈帮助文档',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '开发者服务',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '资源下载',
+                href: 'https://www.proginn.com/works/?from=客栈帮助文档',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '客栈学院',
+                href: 'https://www.proginn.com/learn/?from=客栈帮助文档',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '开发屋',
+                href: 'https://www.kaifain.com/?from=客栈帮助文档',
+              },
+              {
+                label: '技术圈',
+                href: 'https://jishuin.proginn.com/?from=客栈帮助文档',
+              },
+              {
+                label: 'UniSMS',
+                href: 'https://unisms.apistd.com/?source=客栈帮助文档',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: '官网',
-                href: 'https://www.proginn.com/',
+                href: 'https://www.proginn.com/?from=客栈帮助文档',
               },
+              {
+                href: 'https://www.proginn.com/index/app?from=客栈帮助文档',
+                label: '下载APP',
+              },
+              {
+                href: 'https://support.qq.com/product/362129?from=客栈帮助文档',
+                label: '意见反馈',
+              },
+
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 程序员客栈. 浙ICP备15029175号`,
       },
       prism: {
         theme: lightCodeTheme,

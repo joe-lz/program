@@ -20,7 +20,7 @@ const sidebars = {
   'custom': [
     {
       type: 'category',
-      label: '项目类型',
+      label: '解决方案',
       link: {
         type: 'generated-index',
       },
