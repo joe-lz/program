@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '程序员客栈',
+  tagline: '自由工作',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
@@ -43,22 +43,50 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '帮助中心',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '程序员客栈Logo',
+          src: 'img/logo2.svg',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'docSidebar',
+            sidebarId: 'custom',
             position: 'left',
-            label: 'Tutorial',
+            label: '我是需求方',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            docId: '我是开发者/常见问题',
+            position: 'left',
+            label: '我是开发者',
+          },
+          {
+            type: 'doc',
+            docId: '规则协议/黑名单',
+            position: 'left',
+            label: '规则协议',
+          },
+          {
+            type: 'doc',
+            docId: '关于我们',
+            position: 'left',
+            label: '关于我们',
+          },
+          // { to: '/blog', label: '博客', position: 'left' },
+          {
+            href: 'https://www.proginn.com/',
+            label: '官网',
+            position: 'right',
+          },
+          {
+            href: 'https://www.proginn.com/index/app',
+            label: '下载APP',
+            position: 'right',
+          },
+          {
+            href: 'https://support.qq.com/product/362129',
+            label: '意见反馈',
             position: 'right',
           },
         ],
@@ -100,8 +128,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '官网',
+                href: 'https://www.proginn.com/',
               },
             ],
           },
@@ -112,6 +140,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+
     }),
 };
 
