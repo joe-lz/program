@@ -89,6 +89,7 @@ const sidebars = {
   ],
   'rules': [
     '规则协议/黑名单',
+    '规则协议/税务帮助和说明',
     {
       type: 'category',
       label: '协议',
